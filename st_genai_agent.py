@@ -16,7 +16,7 @@ st.set_page_config(page_title="GenAI Agent",
                    initial_sidebar_state="auto", menu_items=None)
 st.title("Oracle GenAI Agent Chat")
 st.subheader("Powered by Oracle Generative AI Agents (Beta)")
-st.info("Check out the [architecure diagram](https://www.oracle.com/a/ocom/img/rc24full-diagram-how-generative-ai-agents-work.png) and [product page](https://www.oracle.com/artificial-intelligence/generative-ai/agents/) to see how the Oracle Data Platform and Generative AI come together for this demo of a fully secure and private RAG chatbot.")
+st.info("Check out the [architecure diagram](https://raw.githubusercontent.com/cgpavlakos/genai_agent/main/RAG%20Demo%20Diagram.png), [product page](https://www.oracle.com/artificial-intelligence/generative-ai/agents/), and [source code](https://github.com/cgpavlakos/genai_agent/tree/main) to see how the Oracle Data Platform and Generative AI come together for this demo of a fully secure and private RAG chatbot.")
 
 # Sidebar
 with st.sidebar:
