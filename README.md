@@ -12,6 +12,8 @@ Demo Streamlit App for Oracle Cloud Generative AI Agents.
 
 http://rag.pavlakos.me
 
+![screenshot](screenshot.jpeg)
+
 
 ## Try out the demo in your Oracle Cloud Tenancy
 
