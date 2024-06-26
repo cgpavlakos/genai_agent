@@ -4,10 +4,11 @@ Demo Streamlit App for Oracle Cloud Generative AI Agents.
 
 ![diagram](RAG%20Demo%20Diagram.png)
 
-## Overview of the App
+## Overview of the Demo
 
 - Provides an external UI front end for Oracle Cloud Generative AI Agents, currently in beta.
 
+  
 ## Live Demo App
 
 http://rag.pavlakos.me
@@ -15,7 +16,17 @@ http://rag.pavlakos.me
 ![screenshot](screenshot.jpeg)
 
 
+
+
 ## Try out the demo in your Oracle Cloud Tenancy
+
+### Before you start
+
+- You must already have an Generative AI Agents endpoint available - this app only provides a front end.
+- You must set up oci config in order to authenticate to the agent endpoint.
+- You must update .streamlit/secrets.toml with your agent_endpoint_id.
+
+### Get started
 
 0. Set up Generative AI Agents service and note the agent_endpoint_id
 1. Make sure you have port 8502 open on security list
