@@ -20,10 +20,10 @@ sudo apt install python3-virtualenv unzip -y
 # Create directories
 echo "** Creating directories..."
 mkdir /home/ubuntu/src
-mkdir /home/ubuntu/src/genai_agent
+mkdir /home/ubuntu/src/genai_agent-main
 
 # Navigate to gen_ai directory
-cd /home/ubuntu/src/genai_agent
+cd /home/ubuntu/src/genai_agent-main
 
 # Create virtual environment and activate it
 echo "** Creating and activating virtual environment..."
@@ -37,7 +37,7 @@ wget https://github.com/cgpavlakos/genai_agent/archive/refs/heads/main.zip
 unzip main.zip -d src
 
 # Install python libraries using pip
-cd /home/ubuntu/src/gen_ai_agent
+cd /home/ubuntu/src/genai_agent-main
 echo "** Installing python libraries with pip (check log for details)..."
 pip install streamlit oci genai_agent_service_bmc_python_client-0.1.77-py2.py3-none-any.whl
 
