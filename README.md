@@ -1,12 +1,11 @@
 # Oracle Generative AI Agents Sample
 
 Demo Streamlit App for Oracle Cloud Generative AI Agents. 
+![diagram](RAG%20Demo%20Diagram.png)
 
 ## Overview of the App
 
 - Provides an external UI front end for Oracle Cloud Generative AI Agents, currently in beta.
-
-![diagram](RAG%20Demo%20Diagram.png)
 
 ## Live Demo App
 
