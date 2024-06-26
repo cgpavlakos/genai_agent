@@ -15,7 +15,10 @@ http://rag.pavlakos.me
 
 0. Set up Generative AI Agents service and note the agent_endpoint_id
 1. Make sure you have port 8502 open on security list
-2. Launch a VM with ubuntu base image
-3. SSH into it (ubuntu@ipaddress) and run setup.sh (or attach it as cloud-init script)
-4. Set up OCI config and secrets.toml
-5. Use run.sh to run the demo 
+2. Launch a VM with ubuntu base image and attach setup.sh as cloud-init script
+4. SSH into your VM (ubuntu@ipaddress) and check the log at /home/ubuntu/genai_agent_setup.log
+5. Run setup.sh if you did not add it as cloud-init script
+6. Set up OCI config
+7. Update .streamlit/secrets.toml with your agent_endpoint_id
+8. Use run.sh to run the demo
+9. Your application will be running on http://server-ip-address:8502
