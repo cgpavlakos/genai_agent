@@ -33,7 +33,7 @@ source genai_agent_env/bin/activate
 # Download sample application and SDK
 cd /home/ubuntu/
 echo "** Downloading sample application..."
-wget https://github.com/cgpavlakos/GenAI-Demo/archive/refs/heads/main.zip
+wget https://github.com/cgpavlakos/genai_agent/archive/refs/heads/main.zip
 unzip main.zip -d src
 
 # Install python libraries using pip
